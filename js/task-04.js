@@ -29,6 +29,6 @@ if (numberOfDroids === null) {
         console.log('Недостаточно средств на счету!');
     } else {
         restOfCredits = credits - totalPrice;
-        alert('Вы купили ' + numberOfDroids + ' дроидов, на счету осталось ' + restOfCredits + ' кредитов.');
+        alert(`Вы купили ${numberOfDroids} дроидов, на счету осталось ${restOfCredits} кредитов.`);
     }
 }
