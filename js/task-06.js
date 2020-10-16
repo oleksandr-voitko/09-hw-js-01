@@ -9,15 +9,14 @@
 // let input;
 // let total = 0;
 
-console.log('Задание 6');
+console.log("Задание 6");
 
 let input;
 let total = 0;
 
 do {
-    input = prompt('Введите число');
-    
-    total += Number(input);
-        
+  input = prompt("Введите число");
+
+  total += Number(input);
 } while (input);
 alert(`Общая сумма чисел равна ${total}`);
