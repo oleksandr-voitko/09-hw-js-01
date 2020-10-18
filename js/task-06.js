@@ -18,7 +18,7 @@ do {
   input = prompt("Введите число");
   let inputNamber = Number(input);
   
-  if (Number.isNaN(inputNamber)) {
+  if (Number.isNaN(inputNamber)||input === ' ') {
     alert(`Было введено не число, попробуйте еще раз`);
     continue;
   }
