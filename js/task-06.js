@@ -16,7 +16,13 @@ let total = 0;
 
 do {
   input = prompt("Введите число");
+  let inputNamber = Number(input);
+  
+  if (Number.isNaN(inputNamber)) {
+    alert(`Было введено не число, попробуйте еще раз`);
+    continue;
+  }
 
-  total += Number(input);
+  total += inputNamber;
 } while (input);
 alert(`Общая сумма чисел равна ${total}`);
